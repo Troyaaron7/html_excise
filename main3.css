@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: teal;
+}
+
+.heading{
+    width: 960px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.heading .title{
+    font-size: 50px;
+    color: darkgray;
+    width: 960px;
+    float: left;
+}
+
+.admin{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2em;
+    width: 200px;
+    color: pink;
+    top: 150px;
+    right: 100px;
+    position: fixed;
+}
+
+.wrap{
+    margin:15px;
+    list-style: none;
+    width: 160px;
+}
+
+.classify{
+    min-height: 40px;
+    cursor: pointer;
+    background: mediumaquamarine;
+}
+
+.classify a{
+    padding: 10px;
+    display: block;
+    color: pink;
+    text-decoration: none;
+    text-indent: 35px;
+}
+
+.classify a:hover{
+    background-color: lightcoral;
+    color: skyblue;
+}
+
+.container{
+    width: 960px;
+    height: 1600px;
+    margin: 60px auto;
+    position: relative;
+}
+
+.pic{
+    width: 220px;
+}
+
+.container img{
+    padding: 10px 10px 15px;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 3px rgba(50,50,50,0.4);
+    border-radius: 4px;
+}

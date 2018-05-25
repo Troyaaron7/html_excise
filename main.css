@@ -1,0 +1,125 @@
+body{
+    width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+}
+
+.part1{
+    position: absolute;
+    top: 18px;
+    right: 12px;
+}
+
+li{
+    padding-left: 15px;
+    display: inline;
+}
+
+.part1 a{
+    color: black;
+    font-family: "微软雅黑";
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.part1 a:hover{
+    color: blue;
+}
+
+.part1 .product{
+    background: cornflowerblue;
+    display: inline-block;
+    height: 25px;
+    width: 66px;
+    text-align: center;
+}
+
+.part1 .product a{
+    color: white;
+    text-decoration: none;
+}
+
+.part2{
+    height: 350px;
+    width: 650px;
+    position: relative;
+    margin: 28px auto;
+}
+
+.part2 img{
+    display: block;
+    margin: 0 auto;
+}
+
+.part2 form{
+    margin-top: -50px;
+    position: relative;
+}
+
+.part2 form .input{
+    height: 34px;
+    width: 550px;
+    border: 1px solid gray;
+    position: absolute;
+    left: 0;
+}
+
+.part2 form .comfirm{
+    height: 36px;
+    width: 100px;
+    color: white;
+    background: #317ef3;
+    border: 0;
+    font-size: medium;
+    position: absolute;
+    right: 0;
+}
+
+.part3{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 50px;
+}
+
+.part3 .QR-code{
+    position: relative;
+    margin: 0 auto;
+}
+
+.part3 .name{
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    width: 100%;
+    height: 20px;
+    position: relative;
+}
+
+.part3 .line1{
+    width: 100%;
+    height: 20px;
+    position: relative;
+}
+
+.part3 .line2{
+    width: 100%;
+    height: 20px;
+    position: relative;
+}
+
+.part3 a{
+    color: gray;
+    font-family: "微软雅黑";
+    font-size: smaller;
+    position: relative;
+}

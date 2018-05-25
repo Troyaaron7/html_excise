@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: silver;
+}
+
+.wrapper{
+    width: 70%;
+    height: 1000px;
+    background: gold;
+    margin: 0 auto;
+}
+
+.heading{
+    width: 100%;
+    height: 130px;
+    background: silver;
+    margin: 0 auto;
+}
+
+.heading_title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
+.heading_nav{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+ul{
+    margin-right: 0;
+    float: right;
+    list-style-type: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+li{
+    padding-left: 8px;
+    display:inline;
+}
+
+a:link,a:visited{
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px;
+}
+
+a:hover,a:active{
+    color: blue;
+}
+
+.heading_img img{
+    border-radius: 60px;
+    display: inline;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    float: right;
+}
+
+.heading_spotlight form{
+    float: left;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    margin-left: 0px;
+}
+
+form input{
+    height: 25px;
+    border-radius: 25px;
+}
+
+.footing{
+    padding-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: darkgray;
+}
+
+.body{
+    padding: 30px;
+    height: auto;
+    width: auto;
+}
+
+.body_title h3{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+}
+
+.body_title p{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.body_content{
+    margin-top: 22px;
+    margin-left: 33px;
+    width: 300px;
+}
+
+.content_img img{
+    margin-top: 0;
+    margin-left: 0;
+    width: auto;
+    height: 300px;
+}
+
+.content_text{
+    margin-top: 12px;
+    margin-left: 0;
+}
+
+.share{
+    margin-top: 8px;
+    margin-left: 0;
+}
+
+.share_box span{
+    margin-left: 8px;
+    position: relative;
+    border: 1px solid silver;
+    display: inline;
+    border-radius: 5px;
+    font-size: smaller;
+}
